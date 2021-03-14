@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.form-login {
+	width: 400px;	
+	padding: 30px;
+	margin: auto;
+	margin-top: 0px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+
+}
+
+.form-sign-up {
+	width: 400px;	
+	padding: 30px;
+	margin: auto;
+	margin-top: 0px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+}
+
+.form-main{
+	width: 400px;	
+	padding: 30px;
+	margin: auto;
+	margin-top: 0px;
+	padding: 30px;
+}
+
+.form-perfil{
+	margin-top: 0px;
+	padding: 30px;
+}
+
+.controls {
+	width: 100%;
+	/*background: #24303c;*/
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.botons{
+	width: 180px;
+	/*background: #D37561;*/
+	border: solid 1px;
+	padding: 12px;	
+	margin: 16px 0;
+	font-size: 16px;
+	margin-left: 50%;
+  	transform: translateX(-50%);
+}
+
+.btn_atras{
+	width: 30px;
+	height: 30px;	
+	border: solid 1px;
+	padding: 0px;	
+	margin: 16px 0;
+	font-size: 25px;
+	/*margin-left: -8%;
+	margin-top: 0px;
+  	/*transform: translateX(-50%);*/
+
+}
+
+.btn_Busqueda{
+	margin-top: 200px;
+	width: 100px;
+	border: solid 1px;
+	padding: 5px;
+}
+
+.divlogolog{	
+	position: relative;	
+	bottom: 20px;	
+	left: 30px;
+}
+
+.divlogoReg{
+	position: relative;
+	bottom: 10px;	
+}
+
+.divP{
+	position:absolute;
+	top: 0;
+	right:0;
+	margin: 10px 0 0 10px;
+}
+
+.divC{
+	position:absolute;
+	top: 0;
+	right:0;
+	margin: 10px 0 0 10px;	
+}
+
+.divAH{
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin: 10px 0 0 10px;
+}
+
+.divAP{
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin: 10px 0 0 10px;
+}
+
+.divAC{
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin: 10px 0 0 10px;	
+}
+
+.divAR{
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin: 10px 0 0 10px;
+}
+
