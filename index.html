@@ -1,88 +1,30 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html>
 <head>
 	<meta charset="UTF-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script type="text/javascript" src="js/main.js"></script>
-	<title>Pharma</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
+	<title>Welcome To Pharma</title>
 </head>
 <body>
+	
+	<section class="form-index">
 
-	<!----------------- || Login || ----------------->
-	<section id="form-login" class="form-login">
-		<div class="divlogolog">
-			<img src="img/logo.PNG" width="250" height="250" align="center">
-		</div>
+	<div class="divlogoIndex">
+		<img src="img/logo.PNG" width="250" height="250" align="center">
+	</div>
+
+	<h2>Bienvenido a Pharma</h2>
+
+	<div class="divMenuInicial">
+		<a href="login.html">Ingresar</a>
+		<a href="registro.php">Registrarse</a>
+		<a href="reg_prod.php">Registrar Producto</a>
+		<a href="reg_farm.php">Registrar Farmacia</a>
+
 		
-		<div class="divlog">
-			<input class="controls" type="text" name="usuario" id="usuario" placeholder=" Ingrese su usuario">
-			<input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">					
-		</div>
-
-		<button class="botons" id="btn_Ingresar">Ingresar</button>
-		<button class="botons" id="btn_Registro">Registrarse</button>
+	</div>
 
 	</section>
-	<!---------- || Formulario Registro || ---------->
-
-	<section id="form-sign-up" class="form-sign-up"> 
-
-        <div class="divAR">
-            <button class="btn_atras" id="btn_AtrasR"><</button>    
-        </div>
-
-		<div class="divlogoReg" align="center">
-			<img src="img/logo.PNG " width="250" height="250" align="center">
-		</div>
-
-		<input class="controls" type="text" name = "Usuario" id = "Nombre" placeholder="Ingrese su nombre">
-		<input class="controls" type="text" name = "Usuario" id = "user" placeholder="Ingrese su usuario">
-		<input class="controls" type="password" name = "Contraseña" id = "password" placeholder="Ingrese su contraseña">
-		<input class="controls" type="password" name = "Contraseña" id = "rpassword" placeholder="Confirme su contraseña">
-		<input class="controls" type="email" name = "Email" id = "Email" placeholder="Ingrese su correo">
-		<input class="controls" type="email" name = "Email" id = "REmail" placeholder="Confirme su correo">
-		<button class="botons" id="btn_Registrarse">Registrarse</button>
-	</section>
-
-	<!-------------- || Vista Home || --------------->
-
-	<section id=form-main class="form-main"> 
-
-        <div class="divAH">
-            <button class="btn_atras" id="btn_AtrasH" ><</button>    
-        </div>
-        
-        <div class="divP">
-            <button id="btn_Perfil" ><img src="img/perfil.png" width="25" height="25"></button>
-        </div>
-		
-		<button class="btn_Busqueda" id="btn_Busqueda">Buscar</button>
-		
-		<table >		
-		</table>	
-	</section>
-
-	<!--------- || Vista Perfil Usuario || ---------->
-
-	<section id="form-perfil" class="form-perfil">
-        <div class="divAP">
-            <button class="btn_atras" id="btn_AtrasP" ><</button>    
-        </div> 
-        
-        <div>
-        	<img src="img/perfil.png" width="350" height="350" align="center">
-        </div>
-
-		<h3>Nombre Usuario</h3>
-		<h3>Correo Usuario</h3>
-
-		<h3>Historial Productos</h3>
-
-		<table >
-		
-		</table>		
-	</section>
-
 </body>
 </html>
